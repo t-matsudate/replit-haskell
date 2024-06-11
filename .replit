@@ -1,0 +1,4 @@
+run = "stack run"
+
+[nix]
+channel = "stable-23_11"

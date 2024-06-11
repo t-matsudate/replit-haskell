@@ -1,0 +1,17 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.36.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           replit-haskell
+version:        0.0.0
+build-type:     Simple
+
+executable replit-haskell
+  main-is: app/Main.hs
+  other-modules:
+      Paths_replit_haskell
+  build-depends:
+      base
+  default-language: Haskell2010
