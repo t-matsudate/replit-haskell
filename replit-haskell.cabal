@@ -12,6 +12,39 @@ executable replit-haskell
   main-is: app/Main.hs
   other-modules:
       Paths_replit_haskell
+  default-extensions:
+      OverloadedStrings
   build-depends:
-      base
+      Cabal
+    , Cabal-syntax
+    , array
+    , base
+    , binary
+    , bytestring
+    , containers
+    , deepseq
+    , directory
+    , exceptions
+    , filepath
+    , ghc-bignum
+    , ghc-boot
+    , ghc-boot-th
+    , ghc-heap
+    , ghc-prim
+    , ghci
+    , haskeline
+    , hpc
+    , integer-gmp
+    , mtl
+    , parsec
+    , pretty
+    , process
+    , stm
+    , template-haskell
+    , terminfo
+    , text
+    , time
+    , transformers
+    , unix
+    , xhtml
   default-language: Haskell2010

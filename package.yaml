@@ -1,5 +1,38 @@
 name: replit-haskell
+default-extensions:
+- OverloadedStrings
 dependencies:
+- Cabal
+- Cabal-syntax
+- array
 - base
+- binary
+- bytestring
+- containers
+- deepseq
+- directory
+- exceptions
+- filepath
+- ghc-bignum
+- ghc-boot
+- ghc-boot-th
+- ghc-heap
+- ghc-prim
+- ghci
+- haskeline
+- hpc
+- integer-gmp
+- mtl
+- parsec
+- pretty
+- process
+- stm
+- template-haskell
+- terminfo
+- text
+- time
+- transformers
+- unix
+- xhtml
 executable:
   main: app/Main.hs
